@@ -1,0 +1,55 @@
+
+header {
+    background-image: url(../../../assets/header-image.png);
+    background-size: cover;
+    height: 100vh;
+        ul {
+        display: flex;
+    
+        li {
+        margin-left: 50px;
+        }
+    }
+
+    .flexContainerNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            display: block;
+        }
+        i {
+            position: fixed;
+            right: 100%;
+
+        }
+    
+    }
+    .flexContainerTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            display: block;
+        }
+    .flexContainerIcons{
+        display: flex;
+        flex-direction: column;align-items: flex-end;    
+        i {
+                margin-top: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+ 
+
+
+ 
+
+    
+
+  
+    
+   
